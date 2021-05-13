@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url("http://amopancas.com.br/wp-content/uploads/2017/09/background-site.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: auto 100vh;
+}
+.menu {
+    background-color: #d3d3d3;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: teal;
+}
+a:hover {
+    text-decoration: underline;
+}
+.site-title , .site-subtitle {
+    text-align: center;
+    color: black;
+}
+.site-subtitle {
+    font-style: italic;
+}
